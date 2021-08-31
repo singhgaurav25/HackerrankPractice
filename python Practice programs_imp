@@ -1,0 +1,380 @@
+python logical test hackerrank
+
+i=1
+while i <= 100:
+    if i%3==0:
+        print("Fizz", end="")
+        if i%5==0:
+            print("Buzz", end="")
+    elif i%5==0:
+        print("Buzz", end="")
+    else:
+        print(i, end="")
+    print()
+    i+=1
+
+
+================================
+
+
+n = int(input('Enter the total no'))
+sum = 0
+avg = 0
+
+for i in range(n):
+    k = int(input("Enter values"))
+    sum = sum + k
+    avg = sum/n
+print(avg)
+
+
+https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges
+
+
+
+Need to ask :
+
+sum = 0
+avg = 0
+i = 0
+while i < 2:
+    i= i+=1
+    x = int(input('ENter the real no'))
+    sum = sum + x
+avg = sum / 2
+print(avg)
+
+
+
+=======================================================
+right
+
+num = int(input("ENter the value"))
+rev = 0
+while num > 0:
+    rem = num % 10
+    rev = (rev * 10) + rem
+    num = num // 10
+print ("%d",rev)
+
+
+==================================================
+Methods to Reverse a number in Python
+
+Method 1: Reverse a number using while loop in Python
+
+
+# Python program to Reverse a number in Python
+num = int(input())
+rev = 0
+while num > 0:
+  rem = num % 10  # Finding the remainder
+  rev = (rev*10) + rem
+  num = num//10  # Finding the quotient
+print("%d " %rev)
+
+
+
+=============================================================
+Reverse a string 
+
+s = "Python" # initial string
+reversedString=[]
+index = len(s) # calculate length of string and save in index
+while index > 0: 
+    reversedString += s[ index - 1 ] # save the value of str[index-1] in reverseString
+    index = index - 1 # decrement index
+print(reversedString) # reversed string
+
+
+
+1 - 10 
+kitne 3 divisible
+
+c = 0
+ for in in 1, 10
+  if i % 3 == 0 
+     while c#! 7
+        i i 
+
+
+bl=gr=ye=0
+
+for  i in l:
+    if i == 'blue': bl=bl+1
+    if i == 'green': gr=gr+1
+    if i== 'yellow': ye=ye+1
+print bl
+print ye
+print gr
+
+
+
+======================================
+
+
+number = 1,2,3,3,3,5,3,5,4,7,8,10,6,78,65,78
+number1 = []
+n = list(number)
+for i in n:
+    if i not in number1:
+        number1.append(i)
+for j in number1:
+	print (j)
+
+
+
+====================================================
+
+https://onlinegdb.com/jXUP-qHLa
+
+
+https://onlinegdb.com/lb-SfcC8g
+
+https://onlinegdb.com/NlgiWkgTu
+
+https://onlinegdb.com/5C8SDf9oI
+
+
+
+Pattern programms
+
+
+
+. 
+..
+...
+....
+
+========================
+
+a = "gaurav"
+
+In [2]: b = [ "Shantanu","kulkarni" ]
+
+In [3]: def changer(x,y):
+   ...:     x = "money"
+   ...:     y[0] = "donkey"
+   ...:
+
+In [4]: a,b
+Out[4]: ('gaurav', ['Shantanu', 'kulkarni'])
+
+In [5]: changer(a,b)
+
+In [6]: a
+Out[6]: 'gaurav'
+
+In [7]: b
+Out[7]: ['donkey', 'kulkarni']
+
+In [8]:
+
+
+
+
+year = int(input("Enter a year: "))  
+if (year % 4) == 0:  
+   if (year % 100) == 0:  
+       if (year % 400) == 0:  
+           print("{0} is a leap year".format(year))  
+       else:  
+           print("{0} is not a leap year".format(year))  
+   else:  
+       print("{0} is a leap year".format(year))  
+else:  
+   print("{0} is not a leap year".format(year)) 
+
+
+=========================================================
+Leap year
+
+https://onlinegdb.com/p9kel1wg0
+
+Hi I am Amrita Dubey. I came across your profile and liked it. I would like to communicate further and know more about you. please free to connect me on 8879167351 
+
+
+===========================
+Average : 
+https://onlinegdb.com/dhCXYQDRH
+
+
+to find your name  characeters in which even and odd no.
+
+
+================================================================
+
+fizzbizz
+
+https://onlinegdb.com/jizhfnzJx
+
+
+================================================
+Occurance of the digits
+
+l = [1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 6]
+d = {}
+for i in l:
+    if i not in d:
+        d[i] = 1
+    else:
+        d[i]+=1
+print(d)
+        
+==============================================
+
+
+n = 0
+while n < 5:
+    n+=1
+    print(int(input("Enter the value")))
+    
+==================================================
+
+Get the difference between a given number and 17, if the number is greater than 17 return double the absolute difference
+
+d = 17
+n = int(input('ENter the value'))
+if n > d:
+    print( 2 * (n - d))
+else:
+    print (  d - n)
+        
+
+=========================================
+
+Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.
+
+a = int(input("ENter the value1"))
+b = int(input("Enter the value2"))
+c = int(input("Enter the value3"))
+if a == b == c:
+    print(3 * (a + b + c))
+else:
+    print(a + b + c)
+
+
+=================================================
+
+Write a Python program to get a new string from a given string where "Is" has been added to the front. If the given string already begins with "Is" then return the string unchanged.
+
+
+n = 0
+while n < 2:
+    n+=1
+    string = input("ENter the word")
+    if "ls" in string[:2]:
+        print(string)
+    else:
+        print('ls'+string)
+
+############################################
+
+through function:
+
+def letter(word):
+    if 'ls' in word[0:2]:
+        print (word)
+    else:
+        print ('ls' + word)
+letter("item")
+
+
+
+
+
+Write a Python program to count the number 4 in a given list.
+
+l = [1,2,3,4,4,4]
+count = 0
+for i in l:
+    if i == 4:
+        count+=1
+print (count)
+
+
+============================================================================
+
+
+
+#Write a Python program to concatenate all elements in a list into a string and return it. 
+
+def lst(n):
+    a = ' '.join(n)
+    print(a)
+lst(['one','two','three'])
+
+
+====================================================
+To check whether substring is present or not Prnt "true or false
+
+s = "anita sharma"
+s1 = "anit"
+if str(s1) == str(s[:4]):
+    print("True")
+else:
+    print("false")
+=======================================================
+Python: Concatenate all elements in a list into a string and return it
+
+l = ['a','e','i','o','u']
+str = ' '
+for i in l:
+    str = str + i
+print(str)
+=========================================================
+Python: Concatenate all elements in a list into a string and return it
+
+
+Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will return 20.
+
+n = int(input('Enter the value'))
+n1 = int(input("Enter the value"))
+if n in range(15,21) or n1 in range (15,21):
+    print ("Sum is",20)
+else:
+    print (n + n1)
+
+
+======================================================
+
+
+Python: Return true if the two given integer values are equal or their sum or difference is 5
+
+n = int(input("Enter the value"))
+n1 = int(input("Enter the value"))
+if n == n1 or n + n1 == 5 or n - n1 == 5:
+    print ("True")
+else:
+    print ("False")
+
+
+
+=====================================================================
+
+
+Gives how many vowels and consonents in your name
+
+n = 'gaurav'
+v = ''
+c = ''
+for i in n:
+    if i  in 'a,e,i,o,u':
+        v= v + i
+    else:
+        c = c + i
+print(len(c),end=' ')
+print(len(v),end=' ')
+
+==============================================
+Always int can be conccated with string once you do str(n) + a, do not convert int to string , it will give you error like below
+
+n = 10
+a = 'rg'
+print(n + " "+ int(a))
+
+==========================
+It is right 
+n = 10
+a = 'rg'
+print(str(n) + " "+ a)
